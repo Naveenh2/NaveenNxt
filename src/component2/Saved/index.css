@@ -1,0 +1,95 @@
+.saved-videos-container {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.saved-videos-header {
+  background-color: #ebebeb;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.dark-theme .saved-videos-header {
+  background-color: #1e293b;
+}
+
+.saved-videos-heading {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.saved-videos-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.saved-video-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.saved-video-link {
+  display: flex;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+}
+
+.saved-video-thumbnail {
+  width: 150px;
+  height: 100px;
+  margin-right: 15px;
+  object-fit: cover;
+}
+
+.saved-video-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.saved-video-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.saved-video-channel,
+.saved-video-views {
+  font-size: 14px;
+  color: #64748b;
+}
+
+.dark-theme .saved-video-channel,
+.dark-theme .saved-video-views {
+  color: #94a3b8;
+}
+
+.no-saved-videos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.no-saved-videos-image {
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.no-saved-videos-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.no-saved-videos-description {
+  font-size: 16px;
+  color: #64748b;
+}
+
+.dark-theme .no-saved-videos-description {
+  color: #94a3b8;
+}
